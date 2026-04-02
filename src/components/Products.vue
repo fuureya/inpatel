@@ -53,12 +53,12 @@
 
                   <!-- Description -->
                   <p class="text-gray-500 dark:text-zinc-400 text-lg leading-relaxed mb-8 font-medium">
-                    {{ currentProductData.shangtelSky.description }}
+                    {{ currentProductData.inpatelSky.description }}
                   </p>
 
                   <!-- Features -->
                   <div class="grid grid-cols-2 gap-4 mb-10">
-                    <div v-for="feature in currentProductData.shangtelSky.features" :key="feature"
+                    <div v-for="feature in currentProductData.inpatelSky.features" :key="feature"
                       class="flex items-center space-x-3 text-sm">
                       <font-awesome-icon icon="check" class="text-inpatel-primary font-black" />
                       <span class="text-gray-700 dark:text-zinc-400 font-bold uppercase tracking-wider text-[10px]">{{ feature }}</span>
@@ -68,7 +68,7 @@
                   <!-- CTA Button -->
                   <a href="https://skyaccess.co.id/" target="_blank"
                     class="block w-full text-center bg-inpatel-primary text-white px-8 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl">
-                    {{ currentProductData.shangtelSky.buttonText }}
+                    {{ currentProductData.inpatelSky.buttonText }}
                     <font-awesome-icon icon="arrow-right" class="ml-2" />
                   </a>
                 </div>
@@ -101,12 +101,12 @@
 
                   <!-- Description -->
                   <p class="text-gray-500 dark:text-zinc-400 text-lg leading-relaxed mb-8 font-medium">
-                    {{ currentProductData.shangtelHome.description }}
+                    {{ currentProductData.inpatelHome.description }}
                   </p>
 
                   <!-- Features -->
                   <div class="grid grid-cols-2 gap-4 mb-10">
-                    <div v-for="feature in currentProductData.shangtelHome.features" :key="feature"
+                    <div v-for="feature in currentProductData.inpatelHome.features" :key="feature"
                       class="flex items-center space-x-3 text-sm">
                       <font-awesome-icon icon="check" class="text-inpatel-primary font-black" />
                       <span class="text-gray-700 dark:text-zinc-400 font-bold uppercase tracking-wider text-[10px]">{{ feature }}</span>
@@ -116,7 +116,7 @@
                   <!-- CTA Button -->
                   <a href="https://shangtelhome.com" target="_blank"
                     class="block w-full text-center bg-inpatel-primary text-white px-8 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl">
-                    {{ currentProductData.shangtelHome.buttonText }}
+                    {{ currentProductData.inpatelHome.buttonText }}
                     <font-awesome-icon icon="arrow-right" class="ml-2" />
                   </a>
                 </div>
@@ -140,19 +140,19 @@ const productDataIndonesia = {
   badge: "Distributor Resmi",
   title: "Distributor Eksklusif Peralatan Wireless",
   subtitle: "Berkat kepercayaan dari produsen mancanegara, kami menjadi distributor eksklusif untuk peralatan wireless di Asia Pasifik, sambil terus mengembangkan merek kami sendiri.",
-  shangtelSky: {
+  inpatelSky: {
     description: "SkyAccess Solusi enterprise merupakan produk Inpatel yang diciptakan untuk memenuhi kebutuhan kompleks dari berbagai segmen, mulai dari bisnis korporasi, pemerintahan, hingga pelaku bisnis yang membutuhkan sarana koneksi internet paling terkini. Solusi ini mencakup paket layanan terlengkap seperti fixed network connectivity, serta manajemen layanan dan monitoring terlengkap.",
     features: [
-      "Installation",
-      "4K Quality",
-      "Ultra Fast",
-      "Satelite VSAT",
-      "Cheap Plans",
-      "24/7 Support"
+      "Instalasi",
+      "Kualitas 4K",
+      "Ultra Cepat",
+      "Satelit VSAT",
+      "Biaya Terjangkau",
+      "Dukungan 24/7"
     ],
     buttonText: "Lihat Selengkapnya"
   },
-  shangtelHome: {
+  inpatelHome: {
     description: "InpatelHome adalah produk unggulan dari PT Integra Palapa Telekomunikasi yang berfokus pada layanan internet berbasis Fiber To The Home (FTTH). Kami hadir untuk memberikan akses internet cepat, stabil, dan terjangkau bagi masyarakat, mendukung kebutuhan digital mulai dari hiburan, pendidikan, hingga bisnis.",
     features: [
       "Privasi & Keamanan Terjamin",
@@ -169,7 +169,7 @@ const productDataEnglish = {
   badge: "Official Distributor",
   title: "Exclusive Distributor of Wireless Equipment",
   subtitle: "Thanks to the trust of international manufacturers, we have become the exclusive distributor for wireless equipment in the Asia Pacific, while continuing to develop our own brands.",
-  shangtelSky: {
+  inpatelSky: {
     description: "The SkyAccess Enterprise Solution is a Inpatel product created to meet the complex needs of various segments, from corporate businesses and government to business players who require the most up-to-date internet connection facilities. This solution includes a complete service package such as fixed network connectivity, as well as comprehensive service management and monitoring.",
     features: [
       "Installation",
@@ -181,7 +181,7 @@ const productDataEnglish = {
     ],
     buttonText: "Learn More"
   },
-  shangtelHome: {
+  inpatelHome: {
     description: "InpatelHome is a flagship product of PT Integra Palapa Telekomunikasi that focuses on Fiber To The Home (FTTH) based internet services. We are here to provide fast, stable, and affordable internet access for the community, supporting digital needs from entertainment and education to business.",
     features: [
       "Guaranteed Privacy & Security",
