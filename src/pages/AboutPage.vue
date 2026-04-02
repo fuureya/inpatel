@@ -3,10 +3,10 @@
 
   <!-- Hero Section with Background Image -->
   <section class="relative h-[28rem] flex items-center justify-center text-white overflow-hidden bg-black">
-    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[10s] hover:scale-110" style="background-image: url('/img/carousel/c1.jpg'); opacity: 0.6;">
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[10s] hover:scale-110" style="background-image: url('@/assets/img/service1.jpg'); opacity: 0.6;">
     </div>
     <div class="relative z-10 text-center px-6">
-      <div class="inline-block bg-telkom-red px-4 py-2 rounded mb-6 transform -rotate-1">
+      <div class="inline-block bg-inpatel-primary px-4 py-2 rounded mb-6 transform -rotate-1">
         <span class="text-xs font-black uppercase tracking-[0.2em]">Company Profile</span>
       </div>
       <h1 class="text-6xl lg:text-8xl font-black mb-6 tracking-tighter leading-none">{{ currentAboutData.hero.title }}</h1>
@@ -19,11 +19,11 @@
     <div class="container mx-auto px-6">
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-12 md:mb-0 relative">
-          <div class="absolute -top-6 -left-6 w-32 h-32 bg-telkom-red/5 rounded-full -z-10"></div>
+          <div class="absolute -top-6 -left-6 w-32 h-32 bg-inpatel-primary/5 rounded-full -z-10"></div>
           <img src="@/assets/img/a1.jpg" alt="Fiber Optic" class="rounded-2xl shadow-2xl w-full object-cover h-[400px]">
         </div>
         <div class="md:w-1/2 md:pl-20">
-          <div class="w-16 h-1 bg-telkom-red mb-8"></div>
+          <div class="w-16 h-1 bg-inpatel-primary mb-8"></div>
           <h2 class="text-5xl font-black text-gray-900 dark:text-white mb-8 tracking-tight">{{ currentAboutData.about.title }}</h2>
           <p class="text-xl text-gray-500 dark:text-zinc-400 leading-relaxed mb-8 font-medium">
             {{ currentAboutData.about.paragraph1 }}
@@ -43,8 +43,8 @@
         <div class="md:w-1/2 md:pr-16 mb-12 md:mb-0">
           <h2 class="text-5xl font-black text-gray-900 dark:text-white mb-10 tracking-tight">{{ currentAboutData.visionMission.title }}</h2>
           <div class="mb-12">
-            <h3 class="text-xs font-black text-telkom-red uppercase tracking-widest mb-4 flex items-center">
-              <span class="w-8 h-px bg-telkom-red mr-3"></span>
+            <h3 class="text-xs font-black text-inpatel-primary uppercase tracking-widest mb-4 flex items-center">
+              <span class="w-8 h-px bg-inpatel-primary mr-3"></span>
               {{ currentAboutData.visionMission.vision.title }}
             </h3>
             <p class="text-xl text-gray-500 dark:text-zinc-400 leading-relaxed font-medium">
@@ -52,13 +52,13 @@
             </p>
           </div>
           <div>
-            <h3 class="text-xs font-black text-telkom-red uppercase tracking-widest mb-6 flex items-center">
-              <span class="w-8 h-px bg-telkom-red mr-3"></span>
+            <h3 class="text-xs font-black text-inpatel-primary uppercase tracking-widest mb-6 flex items-center">
+              <span class="w-8 h-px bg-inpatel-primary mr-3"></span>
               {{ currentAboutData.visionMission.mission.title }}
             </h3>
             <ul class="space-y-4">
               <li v-for="item in currentAboutData.visionMission.mission.items" :key="item" class="flex items-start">
-                <span class="w-2 h-2 bg-telkom-red rounded-full mt-2 mr-4 shrink-0"></span>
+                <span class="w-2 h-2 bg-inpatel-primary rounded-full mt-2 mr-4 shrink-0"></span>
                 <span class="text-gray-500 dark:text-zinc-400 font-medium leading-relaxed">{{ item }}</span>
               </li>
             </ul>
@@ -76,7 +76,7 @@
   <section class="py-16 md:py-24 bg-white dark:bg-zinc-900 transition-colors duration-300">
     <div class="container mx-auto px-6 text-center">
       <h2 class="text-5xl font-black text-gray-900 dark:text-white mb-4 tracking-tight">{{ currentLanguage === 'ID' ? 'Klien Kami' : 'Our Clients' }}</h2>
-      <div class="w-20 h-1.5 bg-telkom-red mx-auto mb-16"></div>
+      <div class="w-20 h-1.5 bg-inpatel-primary mx-auto mb-16"></div>
       <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 items-center">
         <div v-for="client in displayedClients" :key="client"
           class="flex justify-center p-6 bg-gray-50 dark:bg-zinc-900 rounded-xl grayscale hover:grayscale-0 transition-all duration-500 hover:shadow-lg">
@@ -86,12 +86,12 @@
       </div>
       <!-- Loading Spinner -->
       <div v-if="isLoading" class="flex justify-center items-center mt-12">
-        <div class="animate-spin rounded-full h-12 w-12 border-b-4 border-telkom-red"></div>
+        <div class="animate-spin rounded-full h-12 w-12 border-b-4 border-inpatel-primary"></div>
       </div>
       <!-- View More Button -->
       <div v-if="!showAllClients && !isLoading && clientLogos.length > 6" class="mt-16">
         <button @click="loadMoreClients"
-          class="inline-flex items-center gap-3 text-white font-black uppercase tracking-widest text-sm py-4 px-10 rounded-lg shadow-lg bg-telkom-red hover:bg-black transition-all">
+          class="inline-flex items-center gap-3 text-white font-black uppercase tracking-widest text-sm py-4 px-10 rounded-lg shadow-lg bg-inpatel-primary hover:bg-black transition-all">
           <span>{{ currentLanguage === 'ID' ? 'Lihat Selengkapnya' : 'View More' }}</span>
           <font-awesome-icon icon="arrow-right" />
         </button>

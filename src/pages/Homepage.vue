@@ -12,8 +12,8 @@
         <p class="text-xl text-gray-600 dark:text-zinc-400 leading-relaxed mb-10 font-medium">
           {{ currentWelcomeData.content }}
         </p>
-        <div class="inline-block border-l-4 border-telkom-red pl-6 py-2">
-          <p class="text-lg font-black text-telkom-red uppercase tracking-widest italic">
+        <div class="inline-block border-l-4 border-inpatel-primary pl-6 py-2">
+          <p class="text-lg font-black text-inpatel-primary uppercase tracking-widest italic">
             {{ currentWelcomeData.tagline }}
           </p>
         </div>

@@ -5,7 +5,7 @@
   >
     <!-- Minimalist Background -->
     <div class="absolute inset-0 pointer-events-none">
-      <div class="absolute inset-0 opacity-[0.03] bg-[url('/img/map.png')] bg-cover bg-center"></div>
+      <div class="absolute inset-0 opacity-[0.03] bg-gradient-to-br from-inpatel-primary/20 to-transparent"></div>
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto">
@@ -15,7 +15,7 @@
           <div class="relative">
             <!-- Background decorative elements -->
             <div
-              class="absolute -top-4 -left-4 w-24 h-24 bg-telkom-red/10 rounded-full blur-xl"
+              class="absolute -top-4 -left-4 w-24 h-24 bg-inpatel-primary/10 rounded-full blur-xl"
             ></div>
             <div
               class="absolute -bottom-8 -right-8 w-32 h-32 bg-gray-200/50 dark:bg-zinc-800/30 rounded-full blur-xl"
@@ -27,7 +27,7 @@
                 class="col-span-2 relative overflow-hidden rounded-2xl shadow-xl group h-64"
               >
                 <img
-                  src="/img/service1.jpg"
+                  src="@/assets/img/service1.jpg"
                   alt="Infrastructure Service 1"
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -39,7 +39,7 @@
                 class="relative overflow-hidden rounded-xl shadow-lg group h-40"
               >
                 <img
-                  src="/img/service2.jpg"
+                  src="@/assets/img/service2.jpg"
                   alt="Infrastructure Service 2"
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -51,7 +51,7 @@
                 class="relative overflow-hidden rounded-xl shadow-lg group h-40"
               >
                 <img
-                  src="/img/service3.jpg"
+                  src="@/assets/img/service3.jpg"
                   alt="Infrastructure Service 3"
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -63,7 +63,7 @@
                 class="relative overflow-hidden rounded-xl shadow-lg group h-40"
               >
                 <img
-                  src="/img/service4.jpg"
+                  src="@/assets/img/service4.jpg"
                   alt="Infrastructure Service 4"
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -75,7 +75,7 @@
                 class="relative overflow-hidden rounded-xl shadow-lg group h-40"
               >
                 <img
-                  src="/img/service5.jpg"
+                  src="@/assets/img/service5.jpg"
                   alt="Infrastructure Service 5"
                   class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -93,7 +93,7 @@
             <div class="max-w-xl">
               <!-- Badge -->
               <div
-                class="inline-flex items-center px-4 py-2 rounded-lg bg-telkom-red/10 text-telkom-red text-xs font-black uppercase tracking-widest mb-6"
+                class="inline-flex items-center px-4 py-2 rounded-lg bg-inpatel-primary/10 text-inpatel-primary text-xs font-black uppercase tracking-widest mb-6"
               >
                 <span>{{ currentInfraData.badge }}</span>
               </div>
@@ -115,7 +115,7 @@
                 >
                   <div class="flex items-center space-x-4">
                     <div
-                      class="w-12 h-12 bg-telkom-red text-white rounded-lg flex items-center justify-center shadow-lg shadow-telkom-red/20"
+                      class="w-12 h-12 bg-inpatel-primary text-white rounded-lg flex items-center justify-center shadow-lg shadow-inpatel-primary/20"
                     >
                       <font-awesome-icon
                         :icon="['fas', 'satellite-dish']"
@@ -138,7 +138,7 @@
                 >
                   <div class="flex items-center space-x-4">
                     <div
-                      class="w-12 h-12 bg-telkom-red text-white rounded-lg flex items-center justify-center shadow-lg shadow-telkom-red/20"
+                      class="w-12 h-12 bg-inpatel-primary text-white rounded-lg flex items-center justify-center shadow-lg shadow-inpatel-primary/20"
                     >
                       <font-awesome-icon
                         :icon="['fas', 'network-wired']"
@@ -159,7 +159,7 @@
 
               <!-- Services List -->
               <div class="mb-10">
-                <h3 class="text-gray-900 dark:text-white font-black text-xl mb-6 border-l-4 border-telkom-red pl-4">
+                <h3 class="text-gray-900 dark:text-white font-black text-xl mb-6 border-l-4 border-inpatel-primary pl-4">
                   {{ currentInfraData.servicesTitle }}
                 </h3>
                 <div class="grid grid-cols-1 gap-3">
@@ -169,11 +169,11 @@
                     class="flex items-center text-gray-600 dark:text-zinc-300 bg-gray-50 dark:bg-zinc-900 p-4 rounded-xl border border-gray-100 dark:border-zinc-800 hover:bg-white dark:hover:bg-zinc-800 hover:shadow-md transition-all duration-300"
                   >
                     <div
-                      class="w-10 h-10 rounded-lg bg-telkom-red/10 flex items-center justify-center mr-4 shrink-0"
+                      class="w-10 h-10 rounded-lg bg-inpatel-primary/10 flex items-center justify-center mr-4 shrink-0"
                     >
                       <font-awesome-icon
                         :icon="service.icon"
-                        class="text-telkom-red text-sm"
+                        class="text-inpatel-primary text-sm"
                       />
                     </div>
                     <span class="text-sm md:text-md font-bold uppercase tracking-wider text-[11px]">{{
@@ -186,7 +186,7 @@
               <!-- CTA Button -->
               <div class="flex space-x-4">
                 <button
-                  class="bg-telkom-red text-white px-10 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl shadow-lg shadow-telkom-red/20"
+                  class="bg-inpatel-primary text-white px-10 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl shadow-lg shadow-inpatel-primary/20"
                 >
                   {{ currentInfraData.buttonText }}
                   <font-awesome-icon

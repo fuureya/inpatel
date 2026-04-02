@@ -10,7 +10,7 @@
       <!-- Header Section -->
       <div class="text-center mb-20">
         <div
-          class="inline-flex items-center px-4 py-2 rounded-lg bg-telkom-red/10 text-telkom-red text-xs font-black uppercase tracking-widest mb-6">
+          class="inline-flex items-center px-4 py-2 rounded-lg bg-inpatel-primary/10 text-inpatel-primary text-xs font-black uppercase tracking-widest mb-6">
           {{ currentProductData.badge }}
         </div>
 
@@ -36,7 +36,7 @@
                 <div class="relative z-10">
                   <!-- Product Image -->
                   <div class="mb-8 rounded-xl overflow-hidden aspect-video bg-gray-100 dark:bg-zinc-800">
-                    <img src="/img/products/sky.jpg" alt="Skyaccess Infrastructure"
+                    <img src="@/assets/img/service1.jpg" alt="Skyaccess Infrastructure"
                       class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   </div>
 
@@ -44,10 +44,10 @@
                   <div class="flex items-center space-x-6 mb-8">
                     <div
                       class="w-16 h-16 bg-white dark:bg-zinc-800 border border-gray-100 dark:border-zinc-800 rounded-xl flex items-center justify-center shadow-lg p-3">
-                      <img src="/public/img/skyaccess.png" alt="Skyaccess Logo" class="w-full h-full object-contain" />
+                      <img src="@/assets/img/inpatel.png" alt="Skyaccess Logo" class="w-full h-full object-contain" />
                     </div>
                     <h3 class="text-3xl font-black text-gray-900 dark:text-white">
-                      Sky<span class="text-telkom-red">access</span>
+                      Sky<span class="text-inpatel-primary">access</span>
                     </h3>
                   </div>
 
@@ -60,14 +60,14 @@
                   <div class="grid grid-cols-2 gap-4 mb-10">
                     <div v-for="feature in currentProductData.shangtelSky.features" :key="feature"
                       class="flex items-center space-x-3 text-sm">
-                      <font-awesome-icon icon="check" class="text-telkom-red font-black" />
+                      <font-awesome-icon icon="check" class="text-inpatel-primary font-black" />
                       <span class="text-gray-700 dark:text-zinc-400 font-bold uppercase tracking-wider text-[10px]">{{ feature }}</span>
                     </div>
                   </div>
 
                   <!-- CTA Button -->
                   <a href="https://skyaccess.co.id/" target="_blank"
-                    class="block w-full text-center bg-telkom-red text-white px-8 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl">
+                    class="block w-full text-center bg-inpatel-primary text-white px-8 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl">
                     {{ currentProductData.shangtelSky.buttonText }}
                     <font-awesome-icon icon="arrow-right" class="ml-2" />
                   </a>
@@ -83,7 +83,7 @@
                 <div class="relative z-10">
                   <!-- Product Image -->
                   <div class="mb-8 rounded-xl overflow-hidden aspect-video bg-gray-100 dark:bg-zinc-800">
-                    <img src="/img/products/ftth.jpg" alt="Shangtelhome FTTH"
+                    <img src="@/assets/img/service2.jpg" alt="Shangtelhome FTTH"
                       class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   </div>
 
@@ -91,11 +91,11 @@
                   <div class="flex items-center space-x-6 mb-8">
                     <div
                       class="w-16 h-16 bg-white dark:bg-zinc-800 border border-gray-100 dark:border-zinc-800 rounded-xl flex items-center justify-center shadow-lg p-3">
-                      <img src="/public/img/shangtelhome.png" alt="Shangtelhome Logo"
+                      <img src="@/assets/img/inpatel.png" alt="Shangtelhome Logo"
                         class="w-full h-full object-contain" />
                     </div>
                     <h3 class="text-3xl font-black text-gray-900 dark:text-white">
-                      Shangtel<span class="text-telkom-red">Home</span>
+                      Shangtel<span class="text-inpatel-primary">Home</span>
                     </h3>
                   </div>
 
@@ -108,14 +108,14 @@
                   <div class="grid grid-cols-2 gap-4 mb-10">
                     <div v-for="feature in currentProductData.shangtelHome.features" :key="feature"
                       class="flex items-center space-x-3 text-sm">
-                      <font-awesome-icon icon="check" class="text-telkom-red font-black" />
+                      <font-awesome-icon icon="check" class="text-inpatel-primary font-black" />
                       <span class="text-gray-700 dark:text-zinc-400 font-bold uppercase tracking-wider text-[10px]">{{ feature }}</span>
                     </div>
                   </div>
 
                   <!-- CTA Button -->
                   <a href="https://shangtelhome.com" target="_blank"
-                    class="block w-full text-center bg-telkom-red text-white px-8 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl">
+                    class="block w-full text-center bg-inpatel-primary text-white px-8 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl">
                     {{ currentProductData.shangtelHome.buttonText }}
                     <font-awesome-icon icon="arrow-right" class="ml-2" />
                   </a>

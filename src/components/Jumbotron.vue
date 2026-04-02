@@ -24,7 +24,7 @@
                         <div class="max-w-3xl">
                             <!-- Badge -->
                             <div
-                                class="inline-flex items-center px-4 py-2 rounded-lg bg-telkom-red text-white mb-6 uppercase tracking-widest text-xs font-black">
+                                class="inline-flex items-center px-4 py-2 rounded-lg bg-inpatel-primary text-white mb-6 uppercase tracking-widest text-xs font-black">
                                 <span>{{ slide.badge }}</span>
                             </div>
 
@@ -103,21 +103,21 @@ const carouselDataEnglish = [
         badge: "Vision & Identity",
         title: "Integrated IT Solutions for a Connected World",
         subtitle: "Empowering businesses with reliable, secure, and efficient technology.",
-        image: "/img/carousel/c1.jpg"
+        image: "@/assets/img/service1.jpg"
     },
     {
         id: 2,
         badge: "Our Core Services",
         title: "From Design to Security — Everything Under Shangtel",
         subtitle: "Complete solutions in IT Management, Consulting, Data Security, IT Design, and Multimedia Services.",
-        image: "/img/carousel/c2.jpg"
+        image: "@/assets/img/service2.jpg"
     },
     {
         id: 3,
         badge: "Excellence & Trust",
         title: "Build Smart, Secure, and Future-Ready Systems",
         subtitle: "Partner with Shangtel to optimize performance and strengthen your IT infrastructure.",
-        image: "/img/carousel/c3.jpg"
+        image: "@/assets/img/service3.jpg"
     }
 ];
 
@@ -127,14 +127,14 @@ const carrierCarouselDataEnglish = [
         badge: "Carrier Services",
         title: "Enterprise Telecommunications Infrastructure",
         subtitle: "Carrier-grade solutions for telecommunications and enterprise connectivity.",
-        image: "/img/karir1.jpg"
+        image: "@/assets/img/service4.jpg"
     },
     {
         id: 2,
         badge: "Professional Growth",
         title: "Join Our Dynamic Team",
         subtitle: "Build your career with cutting-edge technology and innovative solutions.",
-        image: "/img/karir2.jpg"
+        image: "@/assets/img/service5.jpg"
     }
 ];
 
@@ -144,21 +144,21 @@ const carouselDataIndonesia = [
         badge: "Visi & Identitas",
         title: "Solusi IT Terintegrasi untuk Dunia yang Terkoneksi",
         subtitle: "Memberdayakan bisnis dengan teknologi yang andal, aman, dan efisien.",
-        image: "/img/carousel/c1.jpg"
+        image: "@/assets/img/service1.jpg"
     },
     {
         id: 2,
         badge: "Layanan Utama Kami",
         title: "Dari Desain hingga Keamanan — Semua Ada di Shangtel",
         subtitle: "Solusi lengkap dalam Manajemen IT, Konsultasi, Keamanan Data, Desain IT, dan Layanan Multimedia.",
-        image: "/img/carousel/c2.jpg"
+        image: "@/assets/img/service2.jpg"
     },
     {
         id: 3,
         badge: "Keunggulan & Kepercayaan",
         title: "Bangun Sistem yang Cerdas, Aman, dan Siap untuk Masa Depan",
         subtitle: "Bermitra dengan Shangtel untuk mengoptimalkan kinerja dan memperkuat infrastruktur IT Anda.",
-        image: "/img/carousel/c3.jpg"
+        image: "@/assets/img/service3.jpg"
     }
 ]
 
@@ -168,14 +168,14 @@ const carrierCarouselDataIndonesia = [
         badge: "Layanan Carrier",
         title: "Infrastruktur Telekomunikasi Enterprise",
         subtitle: "Solusi carrier grade untuk telekomunikasi dan konektivitas enterprise.",
-        image: "/img/karir1.jpg"
+        image: "@/assets/img/service4.jpg"
     },
     {
         id: 2,
         badge: "Pengembangan Profesional",
         title: "Bergabunglah dengan Tim Dinamis Kami",
         subtitle: "Bangun karir Anda dengan teknologi terdepan dan solusi inovatif.",
-        image: "/img/karir2.jpg"
+        image: "@/assets/img/service5.jpg"
     }
 ]
 

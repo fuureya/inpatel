@@ -9,7 +9,7 @@
             <!-- Header -->
             <div class="text-center mb-20">
                 <div
-                    class="inline-flex items-center px-4 py-2 rounded-lg bg-telkom-red/10 text-telkom-red text-xs font-black uppercase tracking-widest mb-6">
+                    class="inline-flex items-center px-4 py-2 rounded-lg bg-inpatel-primary/10 text-inpatel-primary text-xs font-black uppercase tracking-widest mb-6">
                     {{ currentServicesData.badge }}
                 </div>
                 <h2 class="text-5xl lg:text-6xl font-black text-gray-900 dark:text-white mb-6 tracking-tight">
@@ -22,7 +22,7 @@
                 <!-- Stats Row -->
                 <div ref="statsRef" class="flex justify-center items-center space-x-12 mt-12">
                     <div class="text-center">
-                        <div class="text-3xl font-black text-telkom-red">24/7</div>
+                        <div class="text-3xl font-black text-inpatel-primary">24/7</div>
                         <div class="text-xs text-gray-400 uppercase font-bold tracking-widest mt-1">Support</div>
                     </div>
                     <div class="w-px h-10 bg-gray-200 dark:bg-zinc-800"></div>
@@ -54,7 +54,7 @@
                         <!-- Content -->
                         <div class="p-8">
                             <div class="flex items-center space-x-4 mb-4">
-                                <div class="w-12 h-12 rounded-lg bg-telkom-red flex items-center justify-center text-white shadow-lg shadow-telkom-red/20">
+                                <div class="w-12 h-12 rounded-lg bg-inpatel-primary flex items-center justify-center text-white shadow-lg shadow-inpatel-primary/20">
                                     <font-awesome-icon :icon="getIconName(service.icon)" class="text-xl" />
                                 </div>
                                 <h3 class="text-xl font-black text-gray-900 dark:text-white leading-tight">
@@ -66,7 +66,7 @@
                                 {{ service.description }}
                             </p>
 
-                            <div class="flex items-center text-telkom-red text-xs font-black uppercase tracking-widest pt-4 border-t border-gray-50 dark:border-zinc-800">
+                            <div class="flex items-center text-inpatel-primary text-xs font-black uppercase tracking-widest pt-4 border-t border-gray-50 dark:border-zinc-800">
                                 <span>Explore Service</span>
                                 <font-awesome-icon icon="arrow-right" class="ml-2 transition-transform group-hover:translate-x-2" />
                             </div>

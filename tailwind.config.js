@@ -8,7 +8,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        'telkom-red': '#E42313',
+        'inpatel-dark': 'var(--inpatel-dark)',
+        'inpatel-primary': 'var(--inpatel-primary)',
+        'inpatel-light': 'var(--inpatel-light)',
+        'telkom-red': 'var(--inpatel-primary)',
       },
       fontFamily: {
         lato: ['Lato', 'sans-serif'],
