@@ -28,7 +28,7 @@
         <div class="max-w-7xl mx-auto w-full">
           <div class="grid lg:grid-cols-2 gap-12 lg:gap-16">
 
-            <!-- ShangtelSky Card -->
+            <!-- InpatelSky Card -->
             <div class="group">
               <div
                 class="relative bg-white dark:bg-zinc-900 rounded-2xl p-8 lg:p-10 border border-gray-100 dark:border-zinc-800 shadow-xl transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 overflow-hidden">
@@ -75,7 +75,7 @@
               </div>
             </div>
 
-            <!-- ShangtelHome Card -->
+            <!-- InpatelHome Card -->
             <div class="group">
               <div
                 class="relative bg-white dark:bg-zinc-900 rounded-2xl p-8 lg:p-10 border border-gray-100 dark:border-zinc-800 shadow-xl transition-all duration-500 hover:shadow-2xl hover:-translate-y-2 overflow-hidden">
@@ -83,7 +83,7 @@
                 <div class="relative z-10">
                   <!-- Product Image -->
                   <div class="mb-8 rounded-xl overflow-hidden aspect-video bg-gray-100 dark:bg-zinc-800">
-                    <img src="@/assets/img/service2.jpg" alt="Shangtelhome FTTH"
+                    <img src="@/assets/img/service2.jpg" alt="Inpatelhome FTTH"
                       class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   </div>
 
@@ -91,11 +91,11 @@
                   <div class="flex items-center space-x-6 mb-8">
                     <div
                       class="w-16 h-16 bg-white dark:bg-zinc-800 border border-gray-100 dark:border-zinc-800 rounded-xl flex items-center justify-center shadow-lg p-3">
-                      <img src="@/assets/img/inpatel.png" alt="Shangtelhome Logo"
+                      <img src="@/assets/img/inpatel.png" alt="Inpatelhome Logo"
                         class="w-full h-full object-contain" />
                     </div>
                     <h3 class="text-3xl font-black text-gray-900 dark:text-white">
-                      Shangtel<span class="text-inpatel-primary">Home</span>
+                      Inpatel<span class="text-inpatel-primary">Home</span>
                     </h3>
                   </div>
 
@@ -141,7 +141,7 @@ const productDataIndonesia = {
   title: "Distributor Eksklusif Peralatan Wireless",
   subtitle: "Berkat kepercayaan dari produsen mancanegara, kami menjadi distributor eksklusif untuk peralatan wireless di Asia Pasifik, sambil terus mengembangkan merek kami sendiri.",
   shangtelSky: {
-    description: "SkyAccess Solusi enterprise merupakan produk Shangkuriang yang diciptakan untuk memenuhi kebutuhan kompleks dari berbagai segmen, mulai dari bisnis korporasi, pemerintahan, hingga pelaku bisnis yang membutuhkan sarana koneksi internet paling terkini. Solusi ini mencakup paket layanan terlengkap seperti fixed network connectivity, serta manajemen layanan dan monitoring terlengkap.",
+    description: "SkyAccess Solusi enterprise merupakan produk Inpatel yang diciptakan untuk memenuhi kebutuhan kompleks dari berbagai segmen, mulai dari bisnis korporasi, pemerintahan, hingga pelaku bisnis yang membutuhkan sarana koneksi internet paling terkini. Solusi ini mencakup paket layanan terlengkap seperti fixed network connectivity, serta manajemen layanan dan monitoring terlengkap.",
     features: [
       "Installation",
       "4K Quality",
@@ -153,7 +153,7 @@ const productDataIndonesia = {
     buttonText: "Lihat Selengkapnya"
   },
   shangtelHome: {
-    description: "ShangtelHome adalah produk unggulan dari PT. Shangkuriang Telekomunikasi Indonesia yang berfokus pada layanan internet berbasis Fiber To The Home (FTTH). Kami hadir untuk memberikan akses internet cepat, stabil, dan terjangkau bagi masyarakat, mendukung kebutuhan digital mulai dari hiburan, pendidikan, hingga bisnis.",
+    description: "InpatelHome adalah produk unggulan dari PT Integra Palapa Telekomunikasi yang berfokus pada layanan internet berbasis Fiber To The Home (FTTH). Kami hadir untuk memberikan akses internet cepat, stabil, dan terjangkau bagi masyarakat, mendukung kebutuhan digital mulai dari hiburan, pendidikan, hingga bisnis.",
     features: [
       "Privasi & Keamanan Terjamin",
       "Kecepatan Stabil 24/7",
@@ -170,7 +170,7 @@ const productDataEnglish = {
   title: "Exclusive Distributor of Wireless Equipment",
   subtitle: "Thanks to the trust of international manufacturers, we have become the exclusive distributor for wireless equipment in the Asia Pacific, while continuing to develop our own brands.",
   shangtelSky: {
-    description: "The SkyAccess Enterprise Solution is a Shangkuriang product created to meet the complex needs of various segments, from corporate businesses and government to business players who require the most up-to-date internet connection facilities. This solution includes a complete service package such as fixed network connectivity, as well as comprehensive service management and monitoring.",
+    description: "The SkyAccess Enterprise Solution is a Inpatel product created to meet the complex needs of various segments, from corporate businesses and government to business players who require the most up-to-date internet connection facilities. This solution includes a complete service package such as fixed network connectivity, as well as comprehensive service management and monitoring.",
     features: [
       "Installation",
       "4K Quality",
@@ -182,7 +182,7 @@ const productDataEnglish = {
     buttonText: "Learn More"
   },
   shangtelHome: {
-    description: "ShangtelHome is a flagship product of PT. Shangkuriang Telekomunikasi Indonesia that focuses on Fiber To The Home (FTTH) based internet services. We are here to provide fast, stable, and affordable internet access for the community, supporting digital needs from entertainment and education to business.",
+    description: "InpatelHome is a flagship product of PT Integra Palapa Telekomunikasi that focuses on Fiber To The Home (FTTH) based internet services. We are here to provide fast, stable, and affordable internet access for the community, supporting digital needs from entertainment and education to business.",
     features: [
       "Guaranteed Privacy & Security",
       "Stable Speed 24/7",

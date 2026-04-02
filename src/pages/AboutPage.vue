@@ -3,7 +3,7 @@
 
   <!-- Hero Section with Background Image -->
   <section class="relative h-[28rem] flex items-center justify-center text-white overflow-hidden bg-black">
-    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[10s] hover:scale-110" style="background-image: url('@/assets/img/service1.jpg'); opacity: 0.6;">
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[10s] hover:scale-110" style="background-image: url('@/assets/img/hero-1.png'); opacity: 0.6;">
     </div>
     <div class="relative z-10 text-center px-6">
       <div class="inline-block bg-inpatel-primary px-4 py-2 rounded mb-6 transform -rotate-1">
@@ -112,28 +112,28 @@ const { currentLanguage } = useLanguage()
 
 const aboutDataIndonesia = {
   hero: {
-    title: "Tentang Shangtel",
-    subtitle: "Solusi IT, Layanan Terkelola, dan Integrasi Sistem Terbaik"
+    title: "Tentang Inpatel",
+    subtitle: "Solusi Konektivitas Andal, Inovatif, dan Berkelanjutan"
   },
   about: {
-    title: "We Do IT With Passion",
-    paragraph1: "PT. Shangkuriang Telekomunikasi Indonesia adalah perusahaan yang bergerak di bidang IT Solution, Managed Service, dan System Integration, dengan fokus utama pada penyediaan layanan jaringan internet yang berkualitas dan berkelanjutan.",
-    paragraph2: "Didukung oleh tenaga ahli berpengalaman dan jaringan kerja yang luas, kami berkomitmen untuk memberikan layanan profesional, solusi teknologi inovatif, serta dukungan terbaik bagi pelanggan di berbagai sektor. kami berkomitmen untuk menghadirkan konektivitas berkualitas tinggi, layanan profesional, serta solusi teknologi terintegrasi yang mendukung transformasi digital di Indonesia. Bersama kami, wujudkan konektivitas tanpa batas untuk masa depan yang lebih cerdas dan terhubung."
+    title: "Menghubungkan Indonesia",
+    paragraph1: "PT Integra Palapa Telekomunikasi merupakan perusahaan yang bergerak di bidang telekomunikasi dengan komitmen kuat untuk menghadirkan solusi konektivitas yang andal, inovatif, dan berkelanjutan di Indonesia. Di tengah perkembangan teknologi yang semakin pesat dan kebutuhan akan komunikasi yang semakin tinggi, kami hadir sebagai mitra strategis yang mampu menjawab tantangan tersebut melalui layanan dan infrastruktur telekomunikasi yang terintegrasi.",
+    paragraph2: "Didukung oleh tim profesional yang berpengalaman serta kompetensi teknis yang mumpuni, kami terus berupaya memberikan layanan terbaik kepada pelanggan, mulai dari pembangunan jaringan, pengelolaan infrastruktur telekomunikasi, hingga penyediaan solusi komunikasi berbasis teknologi terkini. Kami percaya bahwa konektivitas bukan hanya sekadar kebutuhan, melainkan fondasi utama dalam mendorong pertumbuhan ekonomi, transformasi digital, dan peningkatan kualitas hidup masyarakat."
   },
   visionMission: {
-    title: "Visi & Misi",
+    title: "Dedikasi & Komitmen",
     vision: {
-      title: "Visi",
-      content: "Menjadi perusahaan penyedia teknologi informasi dan komunikasi bertaraf internasional dengan layanan terbaik dalam pemberian solusi yang terpercaya dan bernilai tambah bagi pelanggan dan stakeholder."
+      title: "Integritas & Inovasi",
+      content: "Dalam menjalankan operasionalnya, perusahaan menjunjung tinggi nilai integritas, profesionalisme, dan inovasi. Setiap proyek yang kami tangani dikerjakan dengan standar kualitas tinggi serta memperhatikan aspek efisiensi, keamanan, dan keberlanjutan. Kami juga senantiasa mengikuti perkembangan teknologi global untuk memastikan bahwa solusi yang kami tawarkan selalu relevan dan kompetitif di pasar."
     },
     mission: {
-      title: "Misi",
+      title: "Masa Depan Terkoneksi",
       items: [
-        "Menjalin kerjasama dengan perusahaan ICT baik dari dalam negeri maupun luar negeri.",
-        "Bertekad membawa merek sendiri untuk berkembang menjadi industri manufacturing terkemuka di Indonesia.",
-        "Mengembangkan Industri ICT dengan orientasi bisnis dan kultur profesional.",
-        "Mengembangkan sumber daya dan potensi bisnis yang ada di lingkungan Indonesia timur.",
-        "Meningkatkan benefit dan value bagi konsumen dan stakeholder."
+        "Membangun ekosistem telekomunikasi yang kuat dan merata di seluruh Indonesia.",
+        "Menjadi mitra strategis pemerintah dan swasta dalam transformasi digital.",
+        "Memprioritaskan efisiensi, keamanan, dan keberlanjutan dalam setiap infrastruktur.",
+        "Memperluas jangkauan layanan ke wilayah perkotaan maupun daerah terpencil.",
+        "Berkontribusi nyata dalam meningkatkan kualitas hidup melalui teknologi terkini."
       ]
     }
   }
@@ -141,28 +141,28 @@ const aboutDataIndonesia = {
 
 const aboutDataEnglish = {
   hero: {
-    title: "About Shangtel",
-    subtitle: "The Best IT Solutions, Managed Services, and System Integration"
+    title: "About Inpatel",
+    subtitle: "Reliable, Innovative, and Sustainable Connectivity Solutions"
   },
   about: {
-    title: "We Do IT With Passion",
-    paragraph1: "PT. Shangkuriang Telekomunikasi Indonesia is a company engaged in IT Solutions, Managed Services, and System Integration, with a primary focus on providing high-quality and sustainable internet network services.",
-    paragraph2: "Supported by experienced experts and an extensive work network, we are committed to providing professional services, innovative technology solutions, and the best support for customers in various sectors. We are committed to delivering high-quality connectivity, professional services, and integrated technology solutions that support digital transformation in Indonesia. With us, realize limitless connectivity for a smarter and more connected future."
+    title: "Connecting Indonesia",
+    paragraph1: "PT Integra Palapa Telekomunikasi is a telecommunications company with a strong commitment to bringing reliable, innovative, and sustainable connectivity solutions to Indonesia. Amidst rapid technological advancements and increasing communication needs, we stand as a strategic partner capable of meeting these challenges through integrated telecommunications services and infrastructure.",
+    paragraph2: "Supported by an experienced professional team and strong technical competence, we continuously strive to provide the best services to our customers, ranging from network construction and telecommunications infrastructure management to providing communication solutions based on the latest technology. We believe that connectivity is not just a necessity, but the primary foundation in driving economic growth, digital transformation, and improving the quality of people's lives."
   },
   visionMission: {
-    title: "Vision & Mission",
+    title: "Dedication & Commitment",
     vision: {
-      title: "Vision",
-      content: "To become an international-class information and communication technology provider with the best service in providing trusted and value-added solutions for customers and stakeholders."
+      title: "Integrity & Innovation",
+      content: "In its operations, the company upholds the values of integrity, professionalism, and innovation. Every project we handle is executed with high quality standards while considering aspects of efficiency, security, and sustainability. We also constantly follow global technology developments to ensure that the solutions we offer are always relevant and competitive in the market."
     },
     mission: {
-      title: "Mission",
+      title: "A Connected Future",
       items: [
-        "Collaborate with ICT companies from both domestic and foreign countries.",
-        "Determined to bring our own brand to develop into a leading manufacturing industry in Indonesia.",
-        "Develop the ICT industry with a business orientation and professional culture.",
-        "Develop existing resources and business potential in the eastern Indonesian environment.",
-        "Increase benefits and value for consumers and stakeholders."
+        "Building a strong and equitable telecommunications ecosystem across Indonesia.",
+        "Becoming a strategic partner for government and private sectors in digital transformation.",
+        "Prioritizing efficiency, security, and sustainability in every infrastructure project.",
+        "Expanding service reach to both urban and remote areas needing adequate access.",
+        "Making a real contribution to improving quality of life through the latest technology."
       ]
     }
   }

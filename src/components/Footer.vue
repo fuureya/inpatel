@@ -49,7 +49,7 @@
                 </svg>
               </div>
               <div>
-                <p class="leading-relaxed">Jl. Keindahan 1 Blok AA No.4<br>Tamalanrea - Makassar<br>Sulawesi - Indonesia</p>
+                <p class="leading-relaxed">Jl. Malibela KM 11,5<br>Desa/Kelurahan Klawalu, Kec. Sorong Timur<br>Kota Sorong, Provinsi Papua Barat Daya - Indonesia</p>
               </div>
             </div>
 
@@ -60,7 +60,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
               </div>
-              <p>08114499096</p>
+               <p>081144406726</p>
             </div>
 
             <!-- Email -->
@@ -70,7 +70,7 @@
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
               </div>
-              <p>support@shangtel.co.id</p>
+              <p>noc@inpatel.co.id</p>
             </div>
           </div>
         </div>
@@ -146,7 +146,7 @@
           <div class="flex items-center space-x-3">
             <img src="@/assets/img/inpatel.png" alt="Inpatel" class="h-8 w-auto brightness-0 invert" />
             <p class="text-sm">
-              © 2024 Shangtel. All rights reserved.
+              © 2024 Inpatel. All rights reserved.
             </p>
           </div>
           <div class="flex space-x-6 text-sm text-white">
@@ -238,7 +238,7 @@ const submitForm = () => {
   
   const message = `${intro} ${form.value.question}`
   const encodedMessage = encodeURIComponent(message)
-  const whatsappUrl = `https://wa.me/6208114499096?text=${encodedMessage}`
+  const whatsappUrl = `https://wa.me/6281144406726?text=${encodedMessage}`
 
   // Open WhatsApp
   window.open(whatsappUrl, '_blank')
@@ -278,7 +278,7 @@ const submitForm = () => {
 }
 
 .footer-link:hover {
-  color: #E42313;
+  color: var(--inpatel-primary);
   transform: translateX(4px);
 }
 
@@ -295,7 +295,7 @@ const submitForm = () => {
 }
 
 .social-icon:hover {
-  background: #E42313;
+  background-color: var(--inpatel-primary);
   color: white;
   transform: translateY(-2px);
 }
@@ -329,14 +329,14 @@ const submitForm = () => {
 
 .form-input:focus {
   outline: none;
-  border-color: #E42313;
+  border-color: var(--inpatel-primary);
   background: rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 0 4px rgba(228, 35, 19, 0.15);
+  box-shadow: 0 0 0 4px rgba(16, 103, 143, 0.15);
 }
 
 .submit-button {
   position: relative;
-  background: #E42313;
+  background-color: var(--inpatel-primary);
   color: white;
   padding: 0.875rem 1.5rem;
   border-radius: 0.5rem;
@@ -344,14 +344,14 @@ const submitForm = () => {
   border: none;
   cursor: pointer;
   transition: all 0.3s;
-  box-shadow: 0 4px 14px rgba(228, 35, 19, 0.3);
+  box-shadow: 0 4px 14px rgba(16, 103, 143, 0.3);
   overflow: hidden;
 }
 
 .submit-button:hover {
-  background: #C31E10;
+  background-color: var(--inpatel-dark);
   transform: translateY(-1px);
-  box-shadow: 0 8px 25px rgba(228, 35, 19, 0.4);
+  box-shadow: 0 8px 25px rgba(16, 103, 143, 0.4);
 }
 
 /* Responsive adjustments */

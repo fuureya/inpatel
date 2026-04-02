@@ -62,60 +62,58 @@ const { currentLanguage } = useLanguage()
 
 const carrierDataIndonesia = {
   hero: {
-    title: "Bangun Masa Depanmu Bersama Shangtel",
-    subtitle: "Jadilah bagian dari tim yang bersemangat dalam inovasi teknologi."
+    title: "Bangun Masa Depanmu Bersama Inpatel",
+    subtitle: "Jadilah bagian dari tim yang bersemangat dalam membawa inovasi teknologi di seluruh Indonesia."
   },
   intro: {
-    title: "We Do IT With Passion",
-    content: "Di Shangtel, kami percaya bahwa semangat dan dedikasi adalah kunci untuk memberikan solusi terbaik. Kami adalah tim yang solid, kreatif, dan selalu haus akan tantangan baru. Budaya kerja kami didasarkan pada kolaborasi, inovasi, dan pertumbuhan berkelanjutan."
+    title: "Menghubungkan Indonesia dengan Keunggulan",
+    content: "Di Inpatel, kami percaya bahwa integritas, profesionalisme, dan inovasi adalah kunci untuk memberikan solusi terbaik. Kami adalah tim yang solid, kreatif, dan selalu berupaya menciptakan masa depan yang lebih terkoneksi. Budaya kerja kami didasarkan pada kolaborasi dan dedikasi untuk menghubungkan setiap sudut negeri."
   },
   whyJoinUs: {
     title: "Mengapa Bergabung Dengan Kami?",
     cards: [
       {
-        title: "Inovasi Tanpa Henti",
-        content: "Kami selalu mencari cara baru untuk memecahkan masalah dan menciptakan teknologi masa depan."
+        title: "Inovasi Berkelanjutan",
+        content: "Kami selalu mencari cara baru untuk menghadirkan solusi teknologi yang relevan dan kompetitif."
       },
       {
-        title: "Lingkungan Kolaboratif",
-        content: "Anda akan bekerja dengan para ahli di bidangnya dalam lingkungan yang mendukung dan terbuka."
+        title: "Mitra Strategis Global",
+        content: "Anda akan bekerja dengan jaringan profesional luas dan standar kualitas tinggi internasional."
       },
       {
-        title: "Pengembangan Karir",
-        content: "Kami berinvestasi pada pertumbuhan profesional Anda melalui pelatihan dan peluang pengembangan."
+        title: "Pertumbuhan Bersama",
+        content: "Kami berinvestasi pada masa depan dengan memperluas jangkauan layanan ke seluruh Indonesia."
       }
     ]
   },
-
 }
 
 const carrierDataEnglish = {
   hero: {
-    title: "Build Your Future with Shangtel",
-    subtitle: "Be part of a team that is passionate about technological innovation."
+    title: "Build Your Future with Inpatel",
+    subtitle: "Be part of a passionate team bringing technological innovation across Indonesia."
   },
   intro: {
-    title: "We Do IT With Passion",
-    content: "At Shangtel, we believe that passion and dedication are the keys to providing the best solutions. We are a solid, creative team that is always hungry for new challenges. Our work culture is based on collaboration, innovation, and continuous growth."
+    title: "Connecting Indonesia with Excellence",
+    content: "At Inpatel, we believe that integrity, professionalism, and innovation are the keys to providing the best solutions. We are a solid, creative team always striving to create a more connected future. Our work culture is based on collaboration and dedication to connecting every corner of the country."
   },
   whyJoinUs: {
     title: "Why Join Us?",
     cards: [
       {
-        title: "Endless Innovation",
-        content: "We are always looking for new ways to solve problems and create future technologies."
+        title: "Sustainable Innovation",
+        content: "We are always looking for new ways to deliver relevant and competitive technology solutions."
       },
       {
-        title: "Collaborative Environment",
-        content: "You will work with experts in their fields in a supportive and open environment."
+        title: "Global Strategic Partner",
+        content: "You will work with an extensive professional network and high international quality standards."
       },
       {
-        title: "Career Development",
-        content: "We invest in your professional growth through training and development opportunities."
+        title: "Shared Growth",
+        content: "We invest in the future by expanding our service reach throughout Indonesia."
       }
     ]
   },
-
 }
 
 const currentCarrierData = computed(() => {

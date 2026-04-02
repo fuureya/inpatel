@@ -58,8 +58,8 @@ const currentTooltipData = computed(() => {
 // Open WhatsApp with predefined message
 const openWhatsApp = () => {
   const defaultMessage = currentLanguage.value === 'ID'
-    ? 'Halo! Saya ingin bertanya mengenai solusi ISP dan IT dari Shangtel. Bisakah Anda memberikan informasi lebih lanjut?'
-    : 'Hello! I would like to inquire about Shangtel\'s ISP and IT solutions. Can you provide more information?'
+    ? 'Halo! Saya ingin bertanya mengenai solusi ISP dan IT dari Inpatel. Bisakah Anda memberikan informasi lebih lanjut?'
+    : 'Hello! I would like to inquire about Inpatel\'s ISP and IT solutions. Can you provide more information?'
 
   const encodedMessage = encodeURIComponent(defaultMessage)
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`

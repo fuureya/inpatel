@@ -132,7 +132,7 @@ const servicesData = {
     badge: "Our Premium Services",
     title: "Elevate Your Business with Cutting-Edge IT & ISP Solutions",
     subtitle:
-      "Discover how Shangtel's comprehensive suite of IT and Internet Service Provider solutions can transform your operations, enhance security, and drive unparalleled growth.",
+      "Discover how Inpatel's comprehensive suite of IT and Internet Service Provider solutions can transform your operations, enhance security, and drive unparalleled growth.",
     cta: "Explore Solution",
     serviceTypeLabel: "SERVICE MENU",
     services: [
@@ -182,7 +182,7 @@ const servicesData = {
         title: "Internet Service Provider (ISP) Solutions",
         subtitle: "Stable, Fast, and Reliable Connection",
         description:
-          "As an internet service provider, Shangtel ensures your business connectivity remains stable with professional technical support and measurable SLAs. High-speed fiber optic-based solutions for future connectivity.",
+          "As an internet service provider, Inpatel ensures your business connectivity remains stable with professional technical support and measurable SLAs. High-speed fiber optic-based solutions for future connectivity.",
         points: [
           "Dedicated Internet",
           "Corporate Broadband",
@@ -254,7 +254,7 @@ const servicesData = {
     badge: "Layanan Premium Kami",
     title: "MAKSIMALKAN POTENSI BISNIS ANDA DENGAN SOLUSI IT KAMI!",
     subtitle:
-      "Temukan bagaimana rangkaian solusi IT dan Penyedia Layanan Internet (ISP) komprehensif dari Shangtel dapat mengubah operasional Anda, meningkatkan keamanan, dan mendorong pertumbuhan yang tak tertandingi.",
+      "Temukan bagaimana rangkaian solusi IT dan Penyedia Layanan Internet (ISP) komprehensif dari Inpatel dapat mengubah operasional Anda, meningkatkan keamanan, dan mendorong pertumbuhan yang tak tertandingi.",
     cta: "Pelajari Lebih Lanjut",
     serviceTypeLabel: "MENU LAYANAN",
     services: [
@@ -305,7 +305,7 @@ const servicesData = {
         title: "Solusi Internet Service Provider (ISP)",
         subtitle: "Koneksi Stabil, Cepat, dan Andal",
         description:
-          "Sebagai penyedia layanan internet, Shangtel memastikan konektivitas bisnis Anda tetap stabil dengan dukungan teknis profesional dan SLA yang terukur. Solusi berbasis fiber optik untuk konektivitas masa depan.",
+          "Sebagai penyedia layanan internet, Inpatel memastikan konektivitas bisnis Anda tetap stabil dengan dukungan teknis profesional dan SLA yang terukur. Solusi berbasis fiber optik untuk konektivitas masa depan.",
         points: [
           "Internet Dedicated",
           "Broadband Korporasi",

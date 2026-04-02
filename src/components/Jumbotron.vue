@@ -40,7 +40,7 @@
 
                             <!-- CTA Buttons -->
                             <div class="flex flex-col sm:flex-row gap-4">
-                                <a href="https://wa.me/6208114499096?text=Halo%20saya%20ingin%20konsultasi%20tentang%20layanan%20Shangtel" target="_blank" class="cta-primary group">
+                                <a href="https://wa.me/6281144406726?text=Halo%20saya%20ingin%20konsultasi%20tentang%20layanan%20Inpatel" target="_blank" class="cta-primary group">
                                     <span class="relative z-10 flex items-center justify-center">
                                         Get Started
                                         <svg class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
@@ -101,23 +101,23 @@ const carouselDataEnglish = [
     {
         id: 1,
         badge: "Vision & Identity",
-        title: "Integrated IT Solutions for a Connected World",
-        subtitle: "Empowering businesses with reliable, secure, and efficient technology.",
-        image: "@/assets/img/service1.jpg"
+        title: "Connecting Indonesia’s Digital Future",
+        subtitle: "PT Integra Palapa Telekomunikasi: Delivering reliable, innovative, and sustainable connectivity solutions.",
+        image: "@\/assets\/img\/hero-1.png"
     },
     {
         id: 2,
         badge: "Our Core Services",
-        title: "From Design to Security — Everything Under Shangtel",
-        subtitle: "Complete solutions in IT Management, Consulting, Data Security, IT Design, and Multimedia Services.",
-        image: "@/assets/img/service2.jpg"
+        title: "Integrated Telecom Infrastructure & Solutions",
+        subtitle: "From network construction to infrastructure management, we provide the foundation for digital transformation.",
+        image: "@\/assets\/img\/hero-2.png"
     },
     {
         id: 3,
         badge: "Excellence & Trust",
-        title: "Build Smart, Secure, and Future-Ready Systems",
-        subtitle: "Partner with Shangtel to optimize performance and strengthen your IT infrastructure.",
-        image: "@/assets/img/service3.jpg"
+        title: "Your Strategic Partner in Telecommunications",
+        subtitle: "Building smart, secure, and future-ready systems for businesses and communities across Indonesia.",
+        image: "@\/assets\/img\/hero-3.png"
     }
 ];
 
@@ -125,15 +125,15 @@ const carrierCarouselDataEnglish = [
     {
         id: 1,
         badge: "Carrier Services",
-        title: "Enterprise Telecommunications Infrastructure",
-        subtitle: "Carrier-grade solutions for telecommunications and enterprise connectivity.",
+        title: "National Telecommunications Ecosystem",
+        subtitle: "Strategic partnership and infrastructure solutions for a more connected Indonesia.",
         image: "@/assets/img/service4.jpg"
     },
     {
         id: 2,
         badge: "Professional Growth",
-        title: "Join Our Dynamic Team",
-        subtitle: "Build your career with cutting-edge technology and innovative solutions.",
+        title: "Build the Future With Inpatel",
+        subtitle: "Join our team of experts in driving digital transformation and technological innovation.",
         image: "@/assets/img/service5.jpg"
     }
 ];
@@ -142,23 +142,23 @@ const carouselDataIndonesia = [
     {
         id: 1,
         badge: "Visi & Identitas",
-        title: "Solusi IT Terintegrasi untuk Dunia yang Terkoneksi",
-        subtitle: "Memberdayakan bisnis dengan teknologi yang andal, aman, dan efisien.",
-        image: "@/assets/img/service1.jpg"
+        title: "Menghubungkan Masa Depan Digital Indonesia",
+        subtitle: "PT Integra Palapa Telekomunikasi: Menghadirkan solusi konektivitas yang andal, inovatif, dan berkelanjutan.",
+        image: "/src/assets/img/hero-1.png"
     },
     {
         id: 2,
         badge: "Layanan Utama Kami",
-        title: "Dari Desain hingga Keamanan — Semua Ada di Shangtel",
-        subtitle: "Solusi lengkap dalam Manajemen IT, Konsultasi, Keamanan Data, Desain IT, dan Layanan Multimedia.",
-        image: "@/assets/img/service2.jpg"
+        title: "Infrastruktur & Solusi Telekomunikasi Terintegrasi",
+        subtitle: "Dari pembangunan jaringan hingga pengelolaan infrastruktur, kami menjadi fondasi transformasi digital.",
+        image: "/src/assets/img/hero-2.png"
     },
     {
         id: 3,
         badge: "Keunggulan & Kepercayaan",
-        title: "Bangun Sistem yang Cerdas, Aman, dan Siap untuk Masa Depan",
-        subtitle: "Bermitra dengan Shangtel untuk mengoptimalkan kinerja dan memperkuat infrastruktur IT Anda.",
-        image: "@/assets/img/service3.jpg"
+        title: "Mitra Strategis Anda di Bidang Telekomunikasi",
+        subtitle: "Membangun sistem yang cerdas, aman, dan siap untuk masa depan bagi bisnis dan masyarakat di seluruh Indonesia.",
+        image: "/src/assets/img/hero-3.png"
     }
 ]
 
@@ -166,15 +166,15 @@ const carrierCarouselDataIndonesia = [
     {
         id: 1,
         badge: "Layanan Carrier",
-        title: "Infrastruktur Telekomunikasi Enterprise",
-        subtitle: "Solusi carrier grade untuk telekomunikasi dan konektivitas enterprise.",
+        title: "Ekosistem Telekomunikasi Nasional",
+        subtitle: "Kemitraan strategis dan solusi infrastruktur untuk Indonesia yang lebih terkoneksi.",
         image: "@/assets/img/service4.jpg"
     },
     {
         id: 2,
         badge: "Pengembangan Profesional",
-        title: "Bergabunglah dengan Tim Dinamis Kami",
-        subtitle: "Bangun karir Anda dengan teknologi terdepan dan solusi inovatif.",
+        title: "Bangun Masa Depan Bersama Inpatel",
+        subtitle: "Bergabunglah dengan tim ahli kami dalam mendorong transformasi digital dan inovasi teknologi.",
         image: "@/assets/img/service5.jpg"
     }
 ]
@@ -224,7 +224,7 @@ onUnmounted(() => {
 /* CTA Buttons */
 .cta-primary {
     position: relative;
-    background: #E42313;
+    background-color: var(--inpatel-primary);
     color: white;
     padding: 1.25rem 2.5rem;
     border-radius: 0.5rem;
@@ -234,7 +234,7 @@ onUnmounted(() => {
     letter-spacing: 0.05em;
     overflow: hidden;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    box-shadow: 0 10px 30px rgba(228, 35, 19, 0.3);
+    box-shadow: 0 10px 30px rgba(16, 103, 143, 0.3);
     border: none;
     cursor: pointer;
     text-decoration: none;
@@ -243,8 +243,8 @@ onUnmounted(() => {
 
 .cta-primary:hover {
     transform: translateY(-2px);
-    background: #C31E10;
-    box-shadow: 0 20px 40px rgba(228, 35, 19, 0.4);
+    background-color: var(--inpatel-dark);
+    box-shadow: 0 20px 40px rgba(16, 103, 143, 0.4);
 }
 
 .cta-secondary {
@@ -359,7 +359,7 @@ p {
 
 /* Badge animation */
 .inline-flex {
-    border-left: 4px solid #E42313;
+    border-left: 4px solid var(--inpatel-primary);
     padding-left: 1rem;
     color: #ffffff !important;
 }

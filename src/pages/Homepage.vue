@@ -59,15 +59,15 @@ import { useLanguage } from '@/composables/useLanguage.js'
 const welcomeData = [
   {
     lang: "id",
-    title: "Selamat Datang di PT. Shangkuriang Telekomunikasi Indonesia",
-    content: "Selamat Datang di PT. Shangkuriang Telekomunikasi Indonesia PT.Shangkuriang Telekomunikasi Indonesia adalah perusahaan yang bergerak di bidang IT Solution, Managed Service, dan System Integration, dengan fokus utama pada penyediaan layanan jaringan internet yang berkualitas dan berkelanjutan. Didukung oleh tenaga ahli berpengalaman dan jaringan kerja yang luas, kami berkomitmen untuk memberikan layanan profesional, solusi teknologi inovatif, serta dukungan terbaik bagi pelanggan di berbagai sektor. kami berkomitmen untuk menghadirkan konektivitas berkualitas tinggi, layanan profesional, serta solusi teknologi terintegrasi yang mendukung transformasi digital di Indonesia. Bersama kami, wujudkan konektivitas tanpa batas untuk masa depan yang lebih cerdas dan terhubung.",
-    tagline: "“We Do IT With Passion” — Melayani Anda 24x7"
+    title: "Selamat Datang di PT Integra Palapa Telekomunikasi",
+    content: "Kami adalah mitra strategis yang menghadirkan solusi konektivitas andal, inovatif, dan berkelanjutan. Berfokus pada pembangunan infrastruktur dan layanan telekomunikasi terintegrasi, kami berkomitmen untuk mendukung transformasi digital dan pertumbuhan ekonomi di seluruh penjuru Indonesia.",
+    tagline: "“Connecting Indonesia with Excellence”"
   },
   {
     lang: "en",
-    title: "Welcome to PT. Shangkuriang Telekomunikasi Indonesia",
-    content: "PT. Shangkuriang Telekomunikasi Indonesia is a company engaged in IT Solutions, Managed Services, and System Integration, with a primary focus on providing quality and sustainable internet network services.",
-    tagline: "“We Do IT With Passion” — Serving you 24/7"
+    title: "Welcome to PT Integra Palapa Telekomunikasi",
+    content: "We are a strategic partner providing reliable, innovative, and sustainable connectivity solutions. Focused on infrastructure development and integrated telecommunications services, we are committed to supporting digital transformation and economic growth throughout Indonesia.",
+    tagline: "“Connecting Indonesia with Excellence”"
   }
 ]
 
