@@ -272,14 +272,15 @@ onUnmounted(() => {
     padding: 0.75rem;
     border-radius: 50%;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    opacity: 0.7;
+    opacity: 1; /* Fully visible by default */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .nav-arrow:hover {
-    background: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
+    background: var(--inpatel-primary);
+    border-color: var(--inpatel-primary);
     opacity: 1;
-    transform: scale(1.05);
+    transform: scale(1.1) translateY(-50%);
 }
 
 /* Smooth slide transitions */
@@ -300,18 +301,18 @@ onUnmounted(() => {
 
 /* Typography animations */
 h1 {
-    animation: slideInUp 1.2s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: slideInUp 1.2s cubic-bezier(0.4, 0, 0.2, 1) forwards;
     color: #ffffff !important;
 }
 
 p {
-    animation: slideInUp 1.4s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: slideInUp 1.4s cubic-bezier(0.4, 0, 0.2, 1) forwards;
     color: #ffffff !important;
 }
 
 .cta-primary,
 .cta-secondary {
-    animation: slideInUp 1.6s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: slideInUp 1.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
 }
 
 @keyframes slideInUp {

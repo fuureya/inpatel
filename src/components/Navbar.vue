@@ -46,8 +46,8 @@
                 <font-awesome-icon :icon="isDark ? 'moon' : 'sun'" class="text-xs" />
               </div>
               <div class="flex justify-between px-2 w-full text-[10px]">
-                <font-awesome-icon icon="sun" class="text-zinc-400" />
-                <font-awesome-icon icon="moon" class="text-zinc-500" />
+                <font-awesome-icon icon="sun" class="text-amber-500" />
+                <font-awesome-icon icon="moon" class="text-zinc-600 dark:text-zinc-400" />
               </div>
             </div>
           </button>
@@ -259,7 +259,7 @@ const currentNavData = computed(() => {
 
 /* Nav Links */
 .nav-link {
-  @apply px-5 py-2 text-sm font-semibold text-zinc-600 dark:text-zinc-400 rounded-xl transition-all duration-300 relative overflow-hidden;
+  @apply px-5 py-2 text-sm font-black text-zinc-900 dark:text-zinc-100 rounded-xl transition-all duration-300 relative overflow-hidden uppercase tracking-wider;
 }
 
 .nav-link:hover {
