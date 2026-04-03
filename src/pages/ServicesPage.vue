@@ -97,7 +97,7 @@
                   <a
                     :href="getWhatsAppLink(service.title)"
                     target="_blank"
-                    class="inline-block bg-zinc-900 dark:bg-zinc-800 dark:hover:bg-inpatel-primary text-white px-8 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all hover:bg-inpatel-primary hover:shadow-xl"
+                    class="inline-block bg-zinc-900 dark:bg-zinc-800 dark:hover:bg-inpatel-primary text-white px-8 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all hover:bg-inpatel-primary hover:shadow-xl cta-highlight cta-pulse cta-shimmer"
                   >
                     {{ currentContent.cta }}
                     <font-awesome-icon
@@ -385,7 +385,7 @@ const getImageUrl = (name) => {
 
 
 const getWhatsAppLink = (serviceTitle) => {
-  const number = "628114499096";
+  const number = "6281144406726";
   const lang = currentLanguage.value;
   const message =
     lang === "ID"

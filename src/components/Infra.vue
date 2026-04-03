@@ -186,7 +186,7 @@
               <!-- CTA Button -->
               <div class="flex space-x-4">
                 <button
-                  class="bg-inpatel-primary text-white px-10 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl shadow-lg shadow-inpatel-primary/20"
+                  class="bg-inpatel-primary text-white px-10 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl shadow-lg shadow-inpatel-primary/20 cta-highlight cta-pulse cta-shimmer"
                 >
                   {{ currentInfraData.buttonText }}
                   <font-awesome-icon

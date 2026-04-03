@@ -22,10 +22,7 @@
             {{ currentNavData.services }}
           </router-link>
 
-          <router-link :to="{ path: '/', hash: '#products' }" class="nav-link"
-            :class="{ 'active': isLinkActive('products') }">
-            {{ currentNavData.products }}
-          </router-link>
+
 
           <router-link to="/carrier" class="nav-link" :class="{ 'active': isLinkActive('/carrier') }">
             {{ currentNavData.carrier }}
@@ -183,7 +180,7 @@ const isLinkActive = (identifier) => {
 
 const handleScroll = () => {
   if (route.path === '/') {
-    const sections = ['home', 'products', 'contact']
+    const sections = ['home', 'contact']
     const scrollPos = window.scrollY + 150
     let currentSection = ''
 
@@ -238,7 +235,6 @@ const navDataIndonesia = {
   home: "Beranda",
   about: "Tentang",
   services: "Layanan",
-  products: "Produk",
   carrier: "Karir",
   contact: "Kontak"
 }
@@ -247,7 +243,6 @@ const navDataEnglish = {
   home: "Home",
   about: "About",
   services: "Services",
-  products: "Products",
   carrier: "Carrier",
   contact: "Contact"
 }

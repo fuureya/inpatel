@@ -33,8 +33,17 @@ import {
   faMoon,
   faGlobe,
   faChevronDown,
-  faArrowRight
+  faArrowRight,
+  faLocationDot,
+  faPhone,
+  faEnvelope,
+  faPaperPlane,
+  faChevronLeft
 } from '@fortawesome/free-solid-svg-icons'
+
+import {
+  faTwitter
+} from '@fortawesome/free-brands-svg-icons'
 
 // Add icons to library
 library.add(
@@ -62,7 +71,13 @@ library.add(
   faMoon,
   faGlobe,
   faChevronDown,
-  faArrowRight
+  faArrowRight,
+  faLocationDot,
+  faPhone,
+  faEnvelope,
+  faPaperPlane,
+  faChevronLeft,
+  faTwitter
 )
 
 import { register } from 'swiper/element/bundle';

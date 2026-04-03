@@ -40,14 +40,13 @@
 
                             <!-- CTA Buttons -->
                             <div class="flex flex-col sm:flex-row gap-4">
-                                <a href="https://wa.me/6281144406726?text=Halo%20saya%20ingin%20konsultasi%20tentang%20layanan%20Inpatel" target="_blank" class="cta-primary group">
+                                <a href="https://wa.me/6281144406726?text=Halo%20saya%20ingin%20konsultasi%20tentang%20layanan%20Inpatel" target="_blank" class="cta-primary cta-highlight cta-pulse cta-shimmer group">
                                     <span class="relative z-10 flex items-center justify-center">
                                         Get Started
-                                        <svg class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1"
-                                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                        </svg>
+                                        <font-awesome-icon
+                                            icon="arrow-right"
+                                            class="ml-2 transition-transform group-hover:translate-x-1"
+                                        />
                                     </span>
                                 </a>
                             </div>
@@ -70,15 +69,11 @@
 
         <!-- Navigation Arrows -->
         <button @click="prevSlide" class="absolute left-6 top-1/2 transform -translate-y-1/2 z-30 nav-arrow group">
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-            </svg>
+            <font-awesome-icon icon="chevron-left" class="h-6 w-6" />
         </button>
 
         <button @click="nextSlide" class="absolute right-6 top-1/2 transform -translate-y-1/2 z-30 nav-arrow group">
-            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-            </svg>
+            <font-awesome-icon icon="chevron-right" class="h-6 w-6" />
         </button>
 
 

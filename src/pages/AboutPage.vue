@@ -91,7 +91,7 @@
       <!-- View More Button -->
       <div v-if="!showAllClients && !isLoading && clientLogos.length > 6" class="mt-16">
         <button @click="loadMoreClients"
-          class="inline-flex items-center gap-3 text-white font-black uppercase tracking-widest text-sm py-4 px-10 rounded-lg shadow-lg bg-inpatel-primary hover:bg-black transition-all">
+          class="inline-flex items-center gap-3 text-white font-black uppercase tracking-widest text-sm py-4 px-10 rounded-lg shadow-lg bg-inpatel-primary hover:bg-black transition-all cta-highlight cta-pulse cta-shimmer">
           <span>{{ currentLanguage === 'ID' ? 'Lihat Selengkapnya' : 'View More' }}</span>
           <font-awesome-icon icon="arrow-right" />
         </button>
