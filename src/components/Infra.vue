@@ -118,7 +118,7 @@
                       class="w-12 h-12 bg-inpatel-primary text-white rounded-lg flex items-center justify-center shadow-lg shadow-inpatel-primary/20"
                     >
                       <font-awesome-icon
-                        :icon="['fas', 'satellite-dish']"
+                        icon="satellite-dish"
                         class="text-xl"
                       />
                     </div>
@@ -141,7 +141,7 @@
                       class="w-12 h-12 bg-inpatel-primary text-white rounded-lg flex items-center justify-center shadow-lg shadow-inpatel-primary/20"
                     >
                       <font-awesome-icon
-                        :icon="['fas', 'network-wired']"
+                        icon="network-wired"
                         class="text-xl"
                       />
                     </div>
@@ -169,14 +169,14 @@
                     class="flex items-center text-gray-600 dark:text-zinc-300 bg-gray-50 dark:bg-zinc-900 p-4 rounded-xl border border-gray-100 dark:border-zinc-800 hover:bg-white dark:hover:bg-zinc-800 hover:shadow-md transition-all duration-300"
                   >
                     <div
-                      class="w-10 h-10 rounded-lg bg-inpatel-primary/10 flex items-center justify-center mr-4 shrink-0"
+                      class="w-12 h-12 rounded-xl bg-inpatel-primary flex items-center justify-center mr-4 shrink-0 shadow-lg shadow-inpatel-primary/30"
                     >
                       <font-awesome-icon
                         :icon="service.icon"
-                        class="text-inpatel-primary text-sm"
+                        class="text-white text-lg"
                       />
                     </div>
-                    <span class="text-sm md:text-md font-bold uppercase tracking-wider text-[11px]">{{
+                    <span class="text-sm md:text-md font-black uppercase tracking-wider text-[11px] text-gray-900 dark:text-gray-100">{{
                       service.text
                     }}</span>
                   </div>
@@ -186,12 +186,12 @@
               <!-- CTA Button -->
               <div class="flex space-x-4">
                 <button
-                  class="bg-inpatel-primary text-white px-10 py-4 rounded-lg font-black uppercase tracking-widest text-sm transition-all duration-300 hover:bg-black hover:shadow-xl shadow-lg shadow-inpatel-primary/20 cta-highlight cta-pulse cta-shimmer"
+                  class="bg-inpatel-primary text-white border-2 border-transparent px-12 py-5 rounded-xl font-black uppercase tracking-widest text-sm transition-all duration-500 hover:bg-black hover:border-inpatel-primary hover:shadow-2xl shadow-xl shadow-inpatel-primary/40 cta-highlight cta-pulse cta-shimmer"
                 >
                   {{ currentInfraData.buttonText }}
                   <font-awesome-icon
                     icon="arrow-right"
-                    class="ml-2"
+                    class="ml-3"
                   />
                 </button>
               </div>
@@ -235,20 +235,20 @@ const infraDataIndonesia = {
   services: [
     {
       text: "Pembangunan Backbone & Distribusi Fiber Optic",
-      icon: ["fas", "network-wired"],
+      icon: "network-wired",
     },
     {
       text: "Instalasi Radio Wireless & VSAT",
-      icon: ["fas", "satellite-dish"],
+      icon: "satellite-dish",
     },
     {
       text: "Network Operation Center (NOC) Monitoring",
-      icon: ["fas", "desktop"],
+      icon: "desktop",
     },
-    { text: "Maintenance & Support 24/7", icon: ["fas", "tools"] },
+    { text: "Maintenance & Support 24/7", icon: "tools" },
     {
       text: "Solusi FTTH untuk Perumahan & Korporasi",
-      icon: ["fas", "house-signal"],
+      icon: "house-signal",
     },
   ],
   radioLabel: "Radio dan VSAT",
@@ -268,20 +268,20 @@ const infraDataEnglish = {
   services: [
     {
       text: "Backbone & Fiber Optic Distribution Construction",
-      icon: ["fas", "network-wired"],
+      icon: "network-wired",
     },
     {
       text: "Radio Wireless & VSAT Installation",
-      icon: ["fas", "satellite-dish"],
+      icon: "satellite-dish",
     },
     {
       text: "Network Operation Center (NOC) Monitoring",
-      icon: ["fas", "desktop"],
+      icon: "desktop",
     },
-    { text: "Maintenance & Support 24/7", icon: ["fas", "tools"] },
+    { text: "Maintenance & Support 24/7", icon: "tools" },
     {
       text: "FTTH Solutions for Residential & Corporate",
-      icon: ["fas", "house-signal"],
+      icon: "house-signal",
     },
   ],
   radioLabel: "Radio and VSAT",

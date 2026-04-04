@@ -38,8 +38,8 @@
         <div class="grid md:grid-cols-3 gap-10">
           <div v-for="(card, index) in currentCarrierData.whyJoinUs.cards" :key="index"
             class="group bg-white dark:bg-zinc-800 p-10 rounded-2xl border border-gray-100 dark:border-zinc-700 shadow-xl transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl">
-            <div class="w-16 h-16 bg-inpatel-primary/10 text-inpatel-primary rounded-xl flex items-center justify-center mb-8 group-hover:bg-inpatel-primary group-hover:text-white transition-colors duration-500">
-              <font-awesome-icon :icon="['fas', ['lightbulb', 'users', 'chart-line'][index]]" class="text-2xl" />
+            <div class="w-16 h-16 bg-inpatel-primary text-white rounded-xl flex items-center justify-center mb-8 shadow-lg shadow-inpatel-primary/30 group-hover:bg-inpatel-dark transition-colors duration-500">
+              <font-awesome-icon :icon="card.icon" class="text-2xl" />
             </div>
             <h3 class="text-2xl font-black text-gray-900 dark:text-white mb-4">{{ card.title }}</h3>
             <p class="text-gray-500 dark:text-zinc-400 font-medium leading-relaxed">{{ card.content }}</p>
@@ -77,15 +77,18 @@ const carrierDataIndonesia = {
     cards: [
       {
         title: "Inovasi Berkelanjutan",
-        content: "Kami selalu mencari cara baru untuk menghadirkan solusi teknologi yang relevan dan kompetitif."
+        content: "Kami selalu mencari cara baru untuk menghadirkan solusi teknologi yang relevan dan kompetitif.",
+        icon: "lightbulb"
       },
       {
         title: "Mitra Strategis Global",
-        content: "Anda akan bekerja dengan jaringan profesional luas dan standar kualitas tinggi internasional."
+        content: "Anda akan bekerja dengan jaringan profesional luas dan standar kualitas tinggi internasional.",
+        icon: "users"
       },
       {
         title: "Pertumbuhan Bersama",
-        content: "Kami berinvestasi pada masa depan dengan memperluas jangkauan layanan ke seluruh Indonesia."
+        content: "Kami berinvestasi pada masa depan dengan memperluas jangkauan layanan ke seluruh Indonesia.",
+        icon: "chart-line"
       }
     ]
   },
@@ -105,15 +108,18 @@ const carrierDataEnglish = {
     cards: [
       {
         title: "Sustainable Innovation",
-        content: "We are always looking for new ways to deliver relevant and competitive technology solutions."
+        content: "We are always looking for new ways to deliver relevant and competitive technology solutions.",
+        icon: "lightbulb"
       },
       {
         title: "Global Strategic Partner",
-        content: "You will work with an extensive professional network and high international quality standards."
+        content: "You will work with an extensive professional network and high international quality standards.",
+        icon: "users"
       },
       {
         title: "Shared Growth",
-        content: "We invest in the future by expanding our service reach throughout Indonesia."
+        content: "We invest in the future by expanding our service reach throughout Indonesia.",
+        icon: "chart-line"
       }
     ]
   },
