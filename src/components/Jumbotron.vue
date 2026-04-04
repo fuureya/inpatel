@@ -84,6 +84,13 @@
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { useLanguage } from '@/composables/useLanguage.js'
 
+// Import Hero Images
+import hero1 from '@/assets/img/hero-1.png'
+import hero2 from '@/assets/img/hero-2.png'
+import hero3 from '@/assets/img/hero-3.png'
+import service4 from '@/assets/img/service4.jpg'
+import service5 from '@/assets/img/service5.jpg'
+
 // Props to detect if this is carrier page
 const props = defineProps({
   isCarrierPage: {
@@ -98,21 +105,21 @@ const carouselDataEnglish = [
         badge: "Vision & Identity",
         title: "Connecting Indonesia’s Digital Future",
         subtitle: "PT Integra Palapa Telekomunikasi: Delivering reliable, innovative, and sustainable connectivity solutions.",
-        image: "@\/assets\/img\/hero-1.png"
+        image: hero1
     },
     {
         id: 2,
         badge: "Our Core Services",
         title: "Integrated Telecom Infrastructure & Solutions",
         subtitle: "From network construction to infrastructure management, we provide the foundation for digital transformation.",
-        image: "@\/assets\/img\/hero-2.png"
+        image: hero2
     },
     {
         id: 3,
         badge: "Excellence & Trust",
         title: "Your Strategic Partner in Telecommunications",
         subtitle: "Building smart, secure, and future-ready systems for businesses and communities across Indonesia.",
-        image: "@\/assets\/img\/hero-3.png"
+        image: hero3
     }
 ];
 
@@ -122,14 +129,14 @@ const carrierCarouselDataEnglish = [
         badge: "Carrier Services",
         title: "National Telecommunications Ecosystem",
         subtitle: "Strategic partnership and infrastructure solutions for a more connected Indonesia.",
-        image: "@/assets/img/service4.jpg"
+        image: service4
     },
     {
         id: 2,
         badge: "Professional Growth",
         title: "Build the Future With Inpatel",
         subtitle: "Join our team of experts in driving digital transformation and technological innovation.",
-        image: "@/assets/img/service5.jpg"
+        image: service5
     }
 ];
 
@@ -139,21 +146,21 @@ const carouselDataIndonesia = [
         badge: "Visi & Identitas",
         title: "Menghubungkan Masa Depan Digital Indonesia",
         subtitle: "PT Integra Palapa Telekomunikasi: Menghadirkan solusi konektivitas yang andal, inovatif, dan berkelanjutan.",
-        image: "/src/assets/img/hero-1.png"
+        image: hero1
     },
     {
         id: 2,
         badge: "Layanan Utama Kami",
         title: "Infrastruktur & Solusi Telekomunikasi Terintegrasi",
         subtitle: "Dari pembangunan jaringan hingga pengelolaan infrastruktur, kami menjadi fondasi transformasi digital.",
-        image: "/src/assets/img/hero-2.png"
+        image: hero2
     },
     {
         id: 3,
         badge: "Keunggulan & Kepercayaan",
         title: "Mitra Strategis Anda di Bidang Telekomunikasi",
         subtitle: "Membangun sistem yang cerdas, aman, dan siap untuk masa depan bagi bisnis dan masyarakat di seluruh Indonesia.",
-        image: "/src/assets/img/hero-3.png"
+        image: hero3
     }
 ]
 
@@ -163,14 +170,14 @@ const carrierCarouselDataIndonesia = [
         badge: "Layanan Carrier",
         title: "Ekosistem Telekomunikasi Nasional",
         subtitle: "Kemitraan strategis dan solusi infrastruktur untuk Indonesia yang lebih terkoneksi.",
-        image: "@/assets/img/service4.jpg"
+        image: service4
     },
     {
         id: 2,
         badge: "Pengembangan Profesional",
         title: "Bangun Masa Depan Bersama Inpatel",
         subtitle: "Bergabunglah dengan tim ahli kami dalam mendorong transformasi digital dan inovasi teknologi.",
-        image: "@/assets/img/service5.jpg"
+        image: service5
     }
 ]
 

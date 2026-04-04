@@ -3,7 +3,7 @@
 
   <!-- Hero Section with Background Image -->
   <section class="relative h-[28rem] flex items-center justify-center text-white overflow-hidden bg-black">
-    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[10s] hover:scale-110" style="background-image: url('@/assets/img/hero-1.png'); opacity: 0.6;">
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[10s] hover:scale-110" :style="{ backgroundImage: `url(${hero1})`, opacity: 0.6 }">
     </div>
     <div class="relative z-10 text-center px-6">
       <div class="inline-block bg-inpatel-primary px-4 py-2 rounded mb-6 transform -rotate-1">
@@ -20,7 +20,7 @@
       <div class="flex flex-col md:flex-row items-center">
         <div class="md:w-1/2 mb-12 md:mb-0 relative">
           <div class="absolute -top-6 -left-6 w-32 h-32 bg-inpatel-primary/5 rounded-full -z-10"></div>
-          <img src="@/assets/img/a1.jpg" alt="Fiber Optic" class="rounded-2xl shadow-2xl w-full object-cover h-[400px]">
+          <img :src="a1" alt="Fiber Optic" class="rounded-2xl shadow-2xl w-full object-cover h-[400px]">
         </div>
         <div class="md:w-1/2 md:pl-20">
           <div class="w-16 h-1 bg-inpatel-primary mb-8"></div>
@@ -66,7 +66,7 @@
         </div>
         <div class="md:w-1/2 relative">
           <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-gray-200/50 rounded-full -z-10"></div>
-          <img src="@/assets/img/a2.jpg" alt="Satelite" class="rounded-2xl shadow-2xl w-full object-cover h-[500px]">
+          <img :src="a2" alt="Satelite" class="rounded-2xl shadow-2xl w-full object-cover h-[500px]">
         </div>
       </div>
     </div>
@@ -107,6 +107,11 @@ import { ref, computed } from 'vue'
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 import { useLanguage } from '@/composables/useLanguage.js'
+
+// Import Assets
+import hero1 from '@/assets/img/hero-1.png'
+import a1 from '@/assets/img/a1.jpg'
+import a2 from '@/assets/img/a2.jpg'
 
 const { currentLanguage } = useLanguage()
 

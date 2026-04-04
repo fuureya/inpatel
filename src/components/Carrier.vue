@@ -2,7 +2,7 @@
   <div>
     <!-- Hero Section -->
     <section class="relative h-[28rem] flex items-center justify-center text-white overflow-hidden bg-black">
-      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[10s] hover:scale-110" style="background-image: url('@/assets/img/service4.jpg'); opacity: 0.5;">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-[10s] hover:scale-110" :style="{ backgroundImage: `url(${service4})`, opacity: 0.5 }">
       </div>
       <div class="relative z-10 text-center px-6">
         <div class="inline-block bg-inpatel-primary px-4 py-2 rounded mb-6 transform rotate-1">
@@ -55,6 +55,9 @@
 <script setup>
 import { computed } from 'vue'
 import { useLanguage } from '@/composables/useLanguage.js'
+
+// Import Assets
+import service4 from '@/assets/img/service4.jpg'
 
 const { currentLanguage } = useLanguage()
 
